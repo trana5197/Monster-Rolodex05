@@ -1,0 +1,37 @@
+.card-container {
+  background-color: #95dada;
+  border: 1px solid grey;
+  border-radius: 11px;
+  cursor: pointer;
+  box-shadow: 0 2.4rem 4.8rem 0 rgba(0, 0, 0, 0.075);
+  transition: transform 0.3s;
+
+  display: flex;
+  flex-direction: column;
+  gap: 2.4rem;
+}
+
+.card-container:hover {
+  transform: translateY(-1.2rem);
+  box-shadow: 0 2.4rem 4.8rem 0 rgba(0, 0, 0, 0.06);
+}
+
+.card-container img {
+  width: 18rem;
+  align-self: center;
+}
+
+.monster-desc {
+  padding: 2.4rem 4.8rem;
+  display: flex;
+  flex-direction: column;
+  gap: 2.4rem;
+}
+
+.secondary-heading {
+  font-size: 2.4rem;
+}
+
+.email {
+  font-size: 1.6rem;
+}
